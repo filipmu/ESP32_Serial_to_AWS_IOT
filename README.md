@@ -16,6 +16,6 @@ This firmware allows an ESP32 (ESP32 Devkitc) to act as a kind of bridge between
 
 3. In addition the ESP32 will also send a regular heartbeat message, containing the time and the WIFI rssi signal strength.  This can be useful for testing/debugging.
 
-THe standard ESP32 USB serial IO is there as well (UART0), and so a serial monitor can be used to see the message activity and ESP32 status.
+The standard ESP32 USB serial IO is there as well (UART0), and so a serial monitor can be used to see the message activity and ESP32 status.
 
-Note that the ESP32 is not 5v tolerant - only 3.3 volt max on the serial IO lines.  So a level shifter or simple voltage divider is needed. https://icircuit.net/arduino-interfacing-arduino-uno-esp32/2134
+Note that the ESP32 is NOT 5v tolerant - only 3.3 volt max on the serial IO lines.  So a level shifter or simple voltage divider is needed. https://icircuit.net/arduino-interfacing-arduino-uno-esp32/2134
